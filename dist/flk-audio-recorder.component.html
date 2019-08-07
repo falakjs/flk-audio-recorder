@@ -1,0 +1,14 @@
+<span class="audio-wrapper">
+    <button class="record-btn" *if="this.recordIsEnabled && ! this.isRecording" type="button"
+        (click)="this.record()" title="start-recording">
+        <fa icon="microphone icon"></fa>
+    </button>
+    <button type="button" *elseif="this.isRecording" (click)="this.stop()" class="recorder-container">
+        <div class="outer"></div>
+        <div class="outer-2"></div>
+        <div class="icon-microphone">Stop</div>
+    </button>
+    <span class="red-text" *elseif="this.recordIsEnabled === false">
+        Microphone is disabled in your browser, please enable it start recording.
+    </span>
+</span>

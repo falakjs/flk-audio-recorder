@@ -1,0 +1,19 @@
+{
+  "name": "flk-audio-recorder",
+  "version": "1.0.2",
+  "description": "Audio recorder for Falak framework",
+  "keywords": [
+    "audio",
+    "recorder",
+    "flk"
+  ],
+  "license": "ISC",
+  "author": {
+    "email": "hassanzohdy@gmail.com",
+    "name": "Hasan Zohdy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falakjs/flk-audio-player"
+  }
+}
