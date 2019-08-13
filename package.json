@@ -1,6 +1,6 @@
 {
   "name": "flk-audio-recorder",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Audio recorder for Falak framework",
   "main": "dist/flk-audio-recorder.component.js",
   "keywords": [
